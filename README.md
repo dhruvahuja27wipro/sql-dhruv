@@ -28,6 +28,7 @@ I created output tables to store duplicate records for analysis. The query I use
 
 ## Requirement 5:-Replace Duplicates with Unique Rows
 Next, I developed a procedure using ROW_NUMBER() and CTEs to retain only the first occurrence of a record and remove the rest:
+<img width="1041" height="301" alt="Req 5 6" src="https://github.com/user-attachments/assets/903498e4-53ab-49e9-9098-932c87f757f6" />
 
 ## Requirement 6:– Execute and Verify Duplication Cleanup
 After cleaning, I ran COUNT(*) queries grouped by the key fields to verify no duplicates remained in feed_2 and feed_3.
