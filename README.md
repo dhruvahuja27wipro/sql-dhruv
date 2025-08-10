@@ -12,6 +12,7 @@ The common fields across feeds are: name, email, phone, city, state, country, ag
 ## Requirement 1:- Generate Random Input Data
 I started by creating three feed tables with varying schema sizes. I used the following structure for feed_1
 I then populated them with realistic random data using INSERT statements. I intentionally introduced duplicates in feed_2 and feed_3.
+
 <img width="240" height="292" alt="feed 1 query" src="https://github.com/user-attachments/assets/613dffa8-c41a-4da6-bcd0-c95a014b0ab1" />
 
 ## Requirement 2:-Automate Feed Generation
