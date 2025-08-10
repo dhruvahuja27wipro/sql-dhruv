@@ -20,6 +20,7 @@ To avoid manual data insertion each time, I created a stored procedure called po
 This helped streamline the data generation process.
 ## Requirement 3:- – Identify Duplicates
 To identify duplicates, I wrote the following query:
+<img width="1041" height="380" alt="REQ 3  4" src="https://github.com/user-attachments/assets/ba48c3b0-0c56-4926-97a3-0633c89d5795" />
 
 This helped me locate repeated entries in feed_2 and similarly for feed_3.
 ## Requirement 4:-Write Duplicate Records to Output
