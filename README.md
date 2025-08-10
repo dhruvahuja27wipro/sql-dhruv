@@ -34,6 +34,7 @@ Next, I developed a procedure using ROW_NUMBER() and CTEs to retain only the fir
 After cleaning, I ran COUNT(*) queries grouped by the key fields to verify no duplicates remained in feed_2 and feed_3.
 ## Requirement 7:-
 I created a comparison table using LEFT JOINs to compare feed_1 with feed_2 and feed_3 based on name, email, and phone. Here is the query:
+<img width="927" height="635" alt="req7 comp" src="https://github.com/user-attachments/assets/a83ad0d5-001e-4bbf-911c-408c35f796ca" />
 
 
 
