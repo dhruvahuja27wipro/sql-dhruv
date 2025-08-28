@@ -25,6 +25,7 @@ To identify duplicates, I wrote the following query:
 This helped me locate repeated entries in feed_2 and similarly for feed_3.
 ## Requirement 4:-Write Duplicate Records to Output
 I created output tables to store duplicate records for analysis. The query I used was:
+<img width="955" height="228" alt="Screenshot 2025-08-28 at 10 30 19 AM" src="https://github.com/user-attachments/assets/d241dfc8-b23e-4882-8a3f-af0b69f02924" />
 
 ## Requirement 5:-Replace Duplicates with Unique Rows
 Next, I developed a procedure using ROW_NUMBER() and CTEs to retain only the first occurrence of a record and remove the rest:
